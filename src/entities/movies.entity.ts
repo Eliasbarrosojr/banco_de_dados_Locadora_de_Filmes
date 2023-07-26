@@ -1,4 +1,4 @@
-import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
+import { Column, PrimaryGeneratedColumn, Entity } from "typeorm";
 
 @Entity("movies")
 class Movie {
